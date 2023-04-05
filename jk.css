@@ -1,0 +1,131 @@
+body {
+	background-color: #ffffffff;
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+.about {
+	position: relative;
+    border: black 4px solid;
+    border-radius: 8px;
+	text-align: justify;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+}
+.aboutheader{
+	position: absolute;
+    top: -36px;
+    left: 21px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+header {
+	background-color: #333;
+	color: #ffffff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	text-align: center;
+}
+
+section h2 {
+	font-size: 36px;
+}
+
+section p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+img {
+	height: 300px;
+	object-fit: contain;
+
+}
+.img{
+	flex: 50%;
+	margin-bottom: 20px;
+}
+h1 {
+     text-align: center;
+	 color: rgb(255, 255, 255);
+}
+
+footer{
+	background-color: #333;
+	color: #fff;
+	height: 100px;
+}
+.jk1{
+	text-align: left;
+}
+.jk2 {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px !important;
+}
+.jk2 th{
+	padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+}
+.table{
+	display: flex;
+	margin-left: 200px;
+	width: 100%;
+    margin-bottom: 1rem;
+    color: white;
+}
+table{
+	display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: black;
+
+}
+.jk3{
+	margin-left: 407px;
+	color: #000000;
+
+}
+.jk4{
+	border-bottom: 2px solid black;
+	width: 50%;
+
+}
+.jk5{
+	margin: 50px 50px;
+
+}
+.jk5 p{
+	text-align: justify;
+    font-size: larger;
+	line-height: 27px;
+}
